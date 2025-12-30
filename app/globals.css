@@ -13,7 +13,15 @@
   max-width: 500px;
   position: relative;
 }
+.cl-social-button,
+.cl-social-button span {
+  color: white !important;
+}
 
+/* Optional: force icons white too */
+.cl-social-button svg {
+  fill: white !important;
+}
 .str-video__speaker-layout__wrapper {
   max-height: 700px;
 }

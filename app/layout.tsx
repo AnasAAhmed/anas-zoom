@@ -24,10 +24,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ClerkProvider
+
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/yoom-logo.svg",
+            logoImageUrl: "/icons/text-logo.png",
+            termsPageUrl: 'https://anasahmed-portfolio.vercel.app',
+            privacyPageUrl: 'https://moss-nextjs-fork-anas.vercel.app',
           },
           variables: {
             colorText: "#fff",
@@ -35,7 +38,9 @@ export default function RootLayout({
             colorBackground: "#1C1F2E",
             colorInputBackground: "#252A41",
             colorInputText: "#fff",
+
           },
+
         }}
       >
         <body className={`${inter.className} bg-dark-2`}>

@@ -19,6 +19,7 @@ const Sidebar = () => {
             <Link
               href={item.route}
               key={item.label}
+              prefetch={false}
               className={cn(
                 'flex gap-4 items-center p-4 rounded-lg justify-start',
                 {
